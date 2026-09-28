@@ -1,5 +1,6 @@
-export default function init(el) {
+function decorateCard(el) {
   const inner = el.querySelector(':scope > div');
+  if (!inner) return;
   inner.classList.add('card-inner');
   const pic = el.querySelector('picture');
   if (pic) {
@@ -12,12 +13,10 @@ export default function init(el) {
       picPara.remove();
     }
   }
-  // Decorate content
   const con = inner.querySelector(':scope > div:not([class])');
   if (!con) return;
   con.classList.add('card-content-container');
 
-  // Decorate CTA
   const ctaPara = inner.querySelector(':scope > div:last-of-type > p:last-of-type');
   if (!ctaPara) return;
   const cta = ctaPara.querySelector('a');
@@ -28,4 +27,9 @@ export default function init(el) {
   }
   ctaPara.classList.add('card-cta-container');
   inner.append(ctaPara);
+}
+
+export default function init(el) {
+  const cards = el.querySelectorAll(':scope > div');
+  cards.forEach((card) => decorateCard(card));
 }
