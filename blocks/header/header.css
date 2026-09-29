@@ -457,3 +457,18 @@ header {
     font-weight: 500;
   }
 }
+
+header {
+  background: #000;
+  border-bottom: 1px solid #222;
+}
+
+header .brand-section a {
+  color: #a855f7;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+header .main-nav-link:hover {
+  color: #a855f7;
+}
