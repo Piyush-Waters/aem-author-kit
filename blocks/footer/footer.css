@@ -48,16 +48,11 @@ footer p {
   }
 }
 
-footer .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 @media (min-width: 900px) {
   footer .footer-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   footer ul {
