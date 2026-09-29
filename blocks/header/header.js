@@ -4,7 +4,7 @@ import { setColorScheme } from '../section-metadata/section-metadata.js';
 
 const { locale } = getConfig();
 
-const HEADER_PATH = '/fragments/nav/header';
+const HEADER_PATH = '/sample-learning-project/nav';
 
 const menuTriggers = new WeakMap();
 
