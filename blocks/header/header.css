@@ -472,3 +472,11 @@ header .brand-section a {
 header .main-nav-link:hover {
   color: #a855f7;
 }
+
+.brand-section .btn,
+.brand-section .btn-primary {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
