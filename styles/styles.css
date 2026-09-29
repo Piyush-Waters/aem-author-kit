@@ -396,3 +396,7 @@ aem-sidekick {
     opacity: 1;
   }
 }
+
+main {
+  padding-top: 100px;
+}
