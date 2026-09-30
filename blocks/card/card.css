@@ -101,3 +101,11 @@ border-radius: 12px;
 border: 1px solid #333;
 height: 100%;
 }
+
+.card {
+max-width: var(--grid-container-width);
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 2rem;
+}
