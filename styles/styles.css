@@ -400,3 +400,8 @@ aem-sidekick {
 main .section h2 {
 margin-top: 3rem;
 }
+
+#skills {
+display: block;
+margin-top: 80px !important;
+}
