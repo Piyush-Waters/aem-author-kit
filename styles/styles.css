@@ -409,11 +409,7 @@ margin-top: 50px !important;
 #projects {
 display: block;
 margin-top: 50px !important;
-}
-
-.card {
-display: block;
-margin-top: 50px !important;
+margin-bottom: 30px;
 }
 
 #contact-me {
