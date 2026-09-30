@@ -396,3 +396,7 @@ aem-sidekick {
     opacity: 1;
   }
 }
+
+main .section h2 {
+margin-top: 3rem;
+}
