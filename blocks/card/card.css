@@ -109,3 +109,24 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 gap: 2rem;
 }
+
+.card {
+  margin-top: 2rem;
+}
+
+.card .card-inner {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 24px;
+  transition: transform 0.2s ease;
+}
+
+.card .card-inner:hover {
+  transform: translateY(-4px);
+}
+
+.card {
+padding-left: 1rem;
+padding-right: 1rem;
+}
