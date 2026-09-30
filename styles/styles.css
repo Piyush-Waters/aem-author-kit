@@ -403,5 +403,10 @@ margin-top: 3rem;
 
 #skills {
 display: block;
-margin-top: 80px !important;
+margin-top: 50px !important;
+}
+
+#projects {
+display: block;
+margin-top: 50px !important;
 }
